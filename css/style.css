@@ -1,0 +1,1808 @@
+
+html {
+    font-family: "Calibri";
+    font-weight: lighter;
+    cursor: default }
+
+.body{
+    background-color: #292E40;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+.HeadLine {
+    position: relative;
+    display: inline-block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto; 
+    
+  
+ }
+ .MainBox {
+    display: inline-block; 
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto; 
+    background-color: #292E40;
+    
+
+  
+    
+   }
+.IntroFirstLine{
+  font-size: 69px;
+  letter-spacing: 0.34px;
+  text-align: center; 
+  margin-top: 15px; 
+  color: #BED9DE;
+  
+}
+.clasZ{
+    z-index:99;
+}
+.IntroSeconfLine{
+    font-size: 69px;
+    letter-spacing: 0.34px;
+    text-align: center; 
+    
+    color: #FCEBB6;
+    margin-bottom: 50px;
+}
+
+.BodyLine {
+    position: relative;
+    height: 100%;
+    margin: 0 auto; 
+    background-color: #292E40;
+    margin-top: 210px;
+}
+
+.BodyLine_2page {
+    height: 100%;
+    margin: 0 auto; 
+    
+    margin-top: 10px;
+}
+
+.BlockRightAndRight {
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin: 0 auto; 
+    width: 1100px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+
+
+}
+.menu_text2{
+    display: none;
+}   
+.BlockRightAndRight_2 {
+    display: block;
+    height: 100%;
+    margin: 0 auto; 
+    width: 1100px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+
+
+}    
+
+
+.BlockRight {
+    display: inline-block;
+    vertical-align: middle;
+    width: 47%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 0px;
+}    
+   
+
+.rounds {
+    display: flex;
+    width: 365px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px; }
+      
+.rounds .round1 {
+    width: 7px;
+    height: 7px;
+    background-color: #f4acb7;
+    border-radius: 7px; }
+      
+.rounds .round2 {
+    width: 7px;
+    height: 7px;
+    background-color: #f4acb7;
+    border-radius: 7px; }   
+
+.BlockLeft {
+    display: inline-block;
+    vertical-align: middle;
+    width: 47%;
+    height: 300px;
+    margin: 0 auto;
+    }  
+
+.СirclesBig {
+    width: 450px;
+    height: 450px;
+    background-color: #BED9DE;
+    margin: 0 auto;
+    border-radius: 900px;
+    margin-left: 5px; 
+}    
+
+.СirclesOne {
+    width: 105px;
+    height: 105px;
+    background-color: #BED9DE;
+    margin: 0 auto;
+    border-radius: 220px;
+    margin-left: 5px; 
+    margin-top: -512px;
+}    
+.СirclesTwo {
+    width: 51px;
+    height: 51px;
+    background-color: #82BBC2;
+    margin: 0 auto;
+    border-radius: 60px;
+    margin-left: -3px; 
+    margin-top: 0px;
+}    
+
+.СirclesThree {
+    width: 140px;
+    height: 140px;
+    background-color: #82BBC2;
+    margin: 0 auto;
+    border-radius: 160px;
+    margin-left: 370px;
+    margin-top: 215px;
+}    
+.СirclesFour {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(190, 217, 222);
+    margin: -19px auto 0px 338px;
+    border-radius: 160px;
+}    
+.СirclesFive {
+    width: 37px;
+    height: 37px;
+    background-color: #BED9DE;
+    margin: 0 auto;
+    border-radius: 160px;
+    margin-left: 405px;
+    margin-top: -30px;
+}    
+.girl_img {
+    width: 1000px;
+    margin-left: 89px;
+    margin-top: -363px;
+   
+}    
+.girl_on_roudns{
+    
+    margin-top: -80px;
+}  
+
+.cloud_on_roudns{
+    
+    margin-top: -400px;
+}  
+.Cloud_img {
+    width: 200px;
+    margin-left: 360px;
+}   
+
+.hi_text{
+    
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    margin-top: -120px;
+    color: #000000;
+    margin-left: 440px;
+    }
+
+.First_buttons{
+    margin-top: 80px;
+    }  
+    
+.F_buttons {
+    display: flex;
+    justify-content: center;
+    width: 335px;
+    height: 86px;
+    
+    border-radius: 25px;
+    margin: 25px auto;
+    cursor: pointer;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 200;
+    border: 5px solid #F8CAC1;
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    color: #F8CAC1;
+    background-color: #292E40;
+}
+.S_buttons {
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    height: 75px;
+    
+    border-radius: 25px;
+    margin: 25px auto;
+    cursor: pointer;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 200;
+    border: 5px solid #FFFFFF;
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.Th_buttons {
+    display: flex;
+    justify-content: center;
+    width: 145px;
+    height: 60px;
+    border-radius: 18px;
+    margin: 4px;
+    cursor: pointer;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 200;
+    border: 4px solid #F8CAC1;
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    color: #F8CAC1;
+    background-color: #292E40;
+}
+
+/* Оформление панели */
+#checkbox {
+	display: none;
+}
+
+.panel {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	width: 320px;
+	/*left: -360px;*/ /*для левой панели*/
+	right: -360px; /*для правой панели*/
+	background: #82BBC2;
+	transition: all 0.8s;
+	height: 100vh;
+	color: #FFF;
+	padding: 40px 20px;
+
+    
+}
+
+
+.panel-btn-close {
+	font-size: 50px;
+	position: absolute;
+	z-index: 1;
+	top: 15px;
+	/*right: 8px;*/ /*для левой панели*/
+	left: 15px; /*для правой панели*/
+	cursor: pointer;
+	transform: rotate(45deg);
+	color: #fff;
+}
+
+/* Оформление кнопки на странице */
+.button-wrap {
+	text-align: center;
+	width: 120px;
+	/*float: right;*/ /*для левой панели*/
+	float: left; /*для правой панели*/
+	margin: 10px;
+}
+
+.button-1 .btn {
+	text-decoration: none;
+	position: relative;
+	font-size: 27px;
+    font-weight: 200;
+	display: flex;	
+    justify-content: center;
+    width: 335px;
+    height: 86px;
+	
+    border-radius: 25px;
+	align-items: center;
+	
+	cursor: pointer; 
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    
+    color: #F8CAC1;
+}
+
+.btn:hover {
+    color: #292E40;
+    border: 5px solid #F8CAC1;
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    background-color: #F8CAC1;
+  }
+.button-2 .btn2 {
+	text-decoration: none;
+	position: relative;
+	font-size: 27px;
+    font-weight: 200;
+	display: flex;	
+    justify-content: center;
+    width: 260px;
+    height: 75px;
+	
+    border-radius: 25px;
+	align-items: center;
+	
+	cursor: pointer; 
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.button-4 .btn4 {
+	text-decoration: none;
+	position: relative;
+	font-size: 27px;
+    font-weight: 200;
+	display: flex;	
+    justify-content: center;
+    
+	
+    border-radius: 25px;
+	align-items: center;
+	
+	cursor: pointer; 
+
+    font-weight: 200;
+    font-size: 43px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    
+    color: #F8CAC1;
+    margin-top: 5px;
+}
+
+.btn4:hover {
+    color: #292E40;
+    border: 4px solid #F8CAC1;
+    width: 145px;
+    height: 60px;
+
+    font-weight: 200;
+    font-size: 43px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    background-color: #F8CAC1;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+.btn_down{
+    text-decoration: none;
+    color: #F8CAC1;
+}
+.btn_down:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.btn2:hover {
+    color: #82BBC2;
+    border: 5px solid #FFFFFF;
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    background-color: #FFFFFF;
+  }
+
+  
+.button-1 .close {
+	display: none;
+}
+
+#checkbox:checked + .panel + .button-wrap .button-1 .open {
+	display: none;
+}
+
+#checkbox:checked + .panel + .button-wrap .button-1 .close {
+	display: block;
+}
+
+#checkbox:checked + .panel {
+	/*left: 0;*/ /*для левой панели*/
+	right: 0; /*для правой панели*/
+}
+
+.On_panel {
+    margin-top: 225px;
+}
+.Punkt_icon {
+	
+    margin: 0 auto;
+    margin-top: 5px;
+    position: relative;
+	
+	display: flex;	
+    justify-content: center;
+    margin-top: -10px;
+}
+.but_on_panel {
+    margin-top: -205px;
+}
+
+.Project_icons {
+	
+    margin: 0 auto;
+    margin-top: 5px;
+    position: relative;
+	
+	display: flex;	
+    justify-content: center;
+    
+}
+.two_but_on_panel {
+    margin-top: 5px;
+}
+
+.hourglass_icon {
+	width: 50px;
+    margin: 0 auto;
+    margin-top: 5px;
+    position: relative;
+	
+	display: flex;	
+    justify-content: center;
+}
+
+.Downl_icon {
+	width: 30px;
+    margin: 7px;
+    margin-top: 7px;
+    position: relative;
+	
+	display: flex;	
+    justify-content: center;
+}
+
+.btn5:hover {
+    color: #292E40;
+    border: 5px solid #F8CAC1;
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    background-color: #F8CAC1;
+  }
+  
+.button-1 .btn5 {
+	
+	position: relative;
+	font-size: 27px;
+    font-weight: 200;
+	display: flex;	
+    justify-content: center;
+    width: 335px;
+    height: 86px;
+	
+    border-radius: 25px;
+	align-items: center;
+	
+	cursor: pointer; 
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    
+    color: #F8CAC1;
+}
+
+.show-but {
+    margin-top: -121px;
+}
+
+.About_me_buttons {
+    
+    display: inline-block;
+    width: 300px;
+    height: 65px;
+    
+    border-radius: 25px;
+    margin: 25px auto;
+    cursor: pointer;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 200;
+    border: 5px solid #F8CAC1;
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    color: #F8CAC1;
+    background-color: #292E40;
+}
+
+.button-about .btn_about {
+	text-decoration: none;
+	position: relative;
+	font-size: 27px;
+    font-weight: 200;
+	display: flex;	
+    justify-content: center;
+    width: 300px;
+    height: 65px;
+	
+    border-radius: 25px;
+	align-items: center;
+	
+	cursor: pointer; 
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    
+    color: #F8CAC1;
+}
+
+.btn_about:hover {
+    color: #292E40;
+    border: 5px solid #F8CAC1;
+
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    background-color: #F8CAC1;
+    margin-top: -5px;
+    margin-left: -2px;
+  }
+
+  
+.СirclesBig_2page {
+    width: 440px;
+    height: 440px;
+    background-color: #BED9DE;
+    margin: 0 auto;
+    border-radius: 900px;
+    margin-left: 170px;
+    margin-top: 20px;
+}    
+
+.СirclesOne_2page {
+    width: 390px;
+    height: 390px;
+    background-color: #BED9DE;
+    margin: 0 auto;
+    border-radius: 900px;
+    margin-left: 550px;
+    margin-top: -430px;
+}    
+
+.СirclesTwo_2page {
+    width: 400px;
+    height: 400px;
+    background-color: #BED9DE;
+    margin: 0 auto;
+    border-radius: 900px;
+    margin-left: 200px;
+    margin-top: -180px;
+
+}    
+.СirclesThree_2page {
+    width: 360px;
+    height: 360px;
+    background-color: #BED9DE;
+    margin: 0 auto;
+    border-radius: 900px;
+    margin-left: 530px;
+    margin-top: -350px;
+}    
+.СirclesFour_2page {
+    width: 80px;
+    height: 80px;
+    background-color: #BED9DE;
+    margin: 0 auto;
+    border-radius: 160px;
+    margin-left: 110px;
+    margin-top: -630px;
+}    
+.СirclesFive_2page {
+    width: 50px;
+    height: 50px;
+    background-color: #82BBC2;
+    margin: 0 auto;
+    border-radius: 160px;
+    margin-left: 120px;
+    margin-top: 25px;
+}
+.СirclesSix_2page {
+    width: 50px;
+    height: 50px;
+    background-color: #82BBC2;
+    margin: 0 auto;
+    border-radius: 160px;
+    margin-left: 225px;
+    margin-top: -190px;
+}
+
+.СirclesSeven_2page {
+    width: 100px;
+    height: 100px;
+    background-color: #BED9DE;
+    margin: 0 auto;
+    border-radius: 160px;
+    margin-left: 920px;
+    margin-top: -10px;
+}    
+
+.СirclesEight_2page {
+    width: 60px;
+    height: 60px;
+    background-color: #BED9DE;
+    margin: 0 auto;
+    border-radius: 160px;
+    margin-left: 860px;
+    margin-top: -120px;
+}    
+
+.СirclesNine_2page {
+    width: 40px;
+    height: 40px;
+    background-color: #82BBC2;
+    margin: 0 auto;
+    border-radius: 160px;
+    margin-left: 960px;
+    margin-top: 80px;
+}
+.СirclesTen_2page {
+    width: 240px;
+    height: 240px;
+    background-color: #BED9DE;
+    margin: 0 auto;
+    border-radius: 160px;
+    margin-left: 470px;
+    margin-top: -190px;
+}
+.menu_text {
+    display: flex;
+    height: 100%;
+    margin: 0 auto; 
+    width: 600px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+
+    
+    font-size: 21px;
+    margin: 0 auto;
+    
+    letter-spacing: 2px;
+    text-align: center;
+    
+    color: #000000;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: -165px;
+    font-style: normal;
+
+}
+
+.right_bottom_girl {
+    position: fixed; 
+    bottom: -20px; 
+    right: 8%;
+    width: 220px;
+
+    
+    
+}
+.girl_img_small {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .BlockRightAndRight_2{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .button-about .btn_about {
+	
+        position: relative;
+        font-size: 27px;
+        font-weight: 200;
+        display: flex;	
+        justify-content: center;
+        width: 300px;
+        height: 65px;
+        
+        border-radius: 25px;
+        align-items: center;
+        
+        cursor: pointer; 
+    
+        font-weight: 200;
+        font-size: 50px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        
+        color: #F8CAC1;
+    }
+    .btn_about:hover {
+        color: #292E40;
+        border: 5px solid #F8CAC1;
+    
+        font-weight: 200;
+        font-size: 50px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        background-color: #F8CAC1;
+        margin-top: -5px;
+        margin-left: -2px;
+    }
+    .roudns{
+        width: 800px;
+        height: 790px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 57%;
+        left: 50%;
+    }
+    .СirclesBig2_2page {
+        
+        background-color: #BED9DE;
+        align-items: center;
+        width: 90%;
+        height: 800px;
+        margin: 0 auto;
+        border-radius: 800px;
+        
+    }
+    .right_bottom_girl{
+        position: fixed;
+        bottom: -50px;
+        right: 2%;
+        width: 20%;}
+    
+    .menu_text2{
+        display: contents;  
+        
+        display: flex;
+        margin: 0 auto; 
+        width: 70%;
+        height: 1000px;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 21px;
+        margin: 0 auto;
+        
+        letter-spacing: 2px;
+        text-align: center;
+        
+        color: #000000;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: -640px;
+        font-style: normal;
+    }    
+    .text_aboutme2{
+        font-size: 19px;
+        color: #000000;
+    }
+    .text_aboutme{
+        display: none;
+    }
+    .СirclesBig_2page{
+        display: none;
+    }  
+    .СirclesOne_2page{
+        display: none;
+    }
+    .СirclesTwo_2page{
+        display: none;
+    }
+    .СirclesTwo_2page{
+        display: none;
+    }
+    .СirclesThree_2page{
+        display: none;
+    }
+    .СirclesFour_2page{
+        display: none;
+    }
+    .СirclesFive_2page{
+        display: none;
+    }
+    .СirclesSix_2page{
+        display: none;
+    }
+    .СirclesSeven_2page{
+        display: none;
+    }
+    .СirclesEight_2page{
+        display: none;
+    }
+    .СirclesNine_2page{
+        display: none;
+    }
+    .СirclesTen_2page{
+        display: none;
+    }
+    .About_me_buttons{
+        
+        margin: 15px auto;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .BlockRightAndRight_2{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .roudns{
+        width: 800px;
+        height: 790px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 57%;
+        left: 50%;
+    }
+    .СirclesBig2_2page {
+        
+        background-color: #BED9DE;
+        align-items: center;
+        width: 90%;
+        height: 1000px;
+        margin: 0 auto;
+        border-radius: 800px;
+        
+    }
+    .right_bottom_girl{
+        position: fixed;
+        bottom: -20px;
+        right: 2%;
+        width: 20%;}
+    
+    .menu_text2{
+        display: contents;  
+        
+        display: flex;
+        margin: 0 auto; 
+        width: 70%;
+        height: 1000px;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 23px;
+        margin: 0 auto;
+        
+        letter-spacing: 2px;
+        text-align: center;
+        
+        color: #000000;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: -840px;
+        font-style: normal;
+    }    
+    .text_aboutme2{
+        font-size: 19px;
+        color: #000000;
+    }
+    .text_aboutme{
+        display: none;
+    }
+    .СirclesBig_2page{
+        display: none;
+    }  
+    .СirclesOne_2page{
+        display: none;
+    }
+    .СirclesTwo_2page{
+        display: none;
+    }
+    .СirclesTwo_2page{
+        display: none;
+    }
+    .СirclesThree_2page{
+        display: none;
+    }
+    .СirclesFour_2page{
+        display: none;
+    }
+    .СirclesFive_2page{
+        display: none;
+    }
+    .СirclesSix_2page{
+        display: none;
+    }
+    .СirclesSeven_2page{
+        display: none;
+    }
+    .СirclesEight_2page{
+        display: none;
+    }
+    .СirclesNine_2page{
+        display: none;
+    }
+    .СirclesTen_2page{
+        display: none;
+    }
+    .About_me_buttons{
+        width: 200px;
+        height: 40px;
+        margin: 10px auto;
+    }
+    .button-about .btn_about {
+        
+        position: relative;
+        font-size: 27px;
+        font-weight: 200;
+        display: flex;	
+        justify-content: center;
+        width: 200px;
+        height: 40px;
+        
+        border-radius: 25px;
+        align-items: center;
+        
+        cursor: pointer; 
+
+        font-weight: 200;
+        font-size: 50px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        
+        color: #F8CAC1;
+        }
+
+    .btn_about:hover {
+            font-size: 50px;}
+
+    
+}
+@media screen and (max-width: 440px) {
+    .btn_about2{
+        display: none;
+    }
+    .btn_about3{
+        display: none;
+    }
+
+    
+    .BlockRightAndRight_2{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .roudns{
+        width: 800px;
+        height: 790px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 57%;
+        left: 50%;
+    }
+    .СirclesBig2_2page {
+        
+        background-color: #BED9DE;
+        align-items: center;
+        width: 90%;
+        height: 700px;
+        margin: 0 auto;
+        border-radius: 800px;
+        
+    }
+    .right_bottom_girl{
+        position: fixed;
+        bottom: -20px;
+        right: 2%;
+        width: 20%;}
+    
+    .menu_text2{
+        display: contents;  
+        
+        display: flex;
+        margin: 0 auto; 
+        width: 80%;
+        height: 700px;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 15px;
+        margin: 0 auto;
+        
+        letter-spacing: 2px;
+        text-align: center;
+        
+        color: #000000;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: -600px;
+        font-style: normal;
+    }    
+    .text_aboutme2{
+        font-size: 15px;
+        color: #000000;
+    }
+    .text_aboutme{
+        display: none;
+    }
+    .СirclesBig_2page{
+        display: none;
+    }  
+    .СirclesOne_2page{
+        display: none;
+    }
+    .СirclesTwo_2page{
+        display: none;
+    }
+    .СirclesTwo_2page{
+        display: none;
+    }
+    .СirclesThree_2page{
+        display: none;
+    }
+    .СirclesFour_2page{
+        display: none;
+    }
+    .СirclesFive_2page{
+        display: none;
+    }
+    .СirclesSix_2page{
+        display: none;
+    }
+    .СirclesSeven_2page{
+        display: none;
+    }
+    .СirclesEight_2page{
+        display: none;
+    }
+    .СirclesNine_2page{
+        display: none;
+    }
+    .СirclesTen_2page{
+        display: none;
+    }
+    .About_me_buttons{
+        width: 200px;
+        height: 40px;
+        margin: 10px auto;
+    }
+    .button-about .btn_about {
+        
+        position: relative;
+        font-size: 27px;
+        font-weight: 200;
+        display: flex;	
+        justify-content: center;
+        width: 200px;
+        height: 40px;
+        
+        border-radius: 25px;
+        align-items: center;
+        
+        cursor: pointer; 
+
+        font-weight: 200;
+        font-size: 50px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        
+        color: #F8CAC1;
+        }
+
+    .btn_about:hover {
+            font-size: 50px;}
+    .IntroFirstLine {
+        
+        margin-top: 10px;}
+    
+}
+
+@media screen and (max-width: 380px) {
+    .btn_about2{
+        display: none;
+    }
+    .btn_about3{
+        display: none;
+    }
+
+    
+    .BlockRightAndRight_2{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .roudns{
+        width: 800px;
+        height: 790px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 57%;
+        left: 50%;
+    }
+    .СirclesBig2_2page {
+        
+        background-color: #BED9DE;
+        align-items: center;
+        width: 90%;
+        height: 700px;
+        margin: 0 auto;
+        border-radius: 800px;
+        
+    }
+    .right_bottom_girl{
+        position: fixed;
+        bottom: -20px;
+        right: 2%;
+        width: 20%;}
+    
+    .menu_text2{
+        display: contents;  
+        
+        display: flex;
+        margin: 0 auto; 
+        width: 80%;
+        height: 700px;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 16px;
+        margin: 0 auto;
+        
+        letter-spacing: 2px;
+        text-align: center;
+        
+        color: #000000;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: -650px;
+        font-style: normal;
+    }    
+    .text_aboutme2{
+        font-size: 14px;
+        color: #000000;
+    }
+    .text_aboutme{
+        display: none;
+    }
+    .СirclesBig_2page{
+        display: none;
+    }  
+    .СirclesOne_2page{
+        display: none;
+    }
+    .СirclesTwo_2page{
+        display: none;
+    }
+    .СirclesTwo_2page{
+        display: none;
+    }
+    .СirclesThree_2page{
+        display: none;
+    }
+    .СirclesFour_2page{
+        display: none;
+    }
+    .СirclesFive_2page{
+        display: none;
+    }
+    .СirclesSix_2page{
+        display: none;
+    }
+    .СirclesSeven_2page{
+        display: none;
+    }
+    .СirclesEight_2page{
+        display: none;
+    }
+    .СirclesNine_2page{
+        display: none;
+    }
+    .СirclesTen_2page{
+        display: none;
+    }
+    .About_me_buttons{
+        width: 200px;
+        height: 40px;
+        margin: 10px auto;
+    }
+    .button-about .btn_about {
+        
+        position: relative;
+        font-size: 27px;
+        font-weight: 200;
+        display: flex;	
+        justify-content: center;
+        width: 200px;
+        height: 40px;
+        
+        border-radius: 25px;
+        align-items: center;
+        
+        cursor: pointer; 
+
+        font-weight: 200;
+        font-size: 50px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        
+        color: #F8CAC1;
+        }
+
+    .btn_about:hover {
+            font-size: 50px;}
+    .IntroFirstLine {
+        
+        margin-top: 10px;}
+    
+}
+
+@media screen and (max-width: 1010px) {
+    
+    .BlockRightAndRight {
+        display: inline-block;
+        height: 100%;
+        margin: 0 auto;
+        width: 80%;
+        justify-content: space-between;
+        margin-left: 10%;
+        vertical-align: middle;
+    }
+    .IntroFirstLine{
+        font-size: 40px;
+        letter-spacing: 0.34px;
+        text-align: center; 
+        
+        margin-top: 30px; 
+        color: #BED9DE;
+        vertical-align: middle;
+        
+      }
+      
+    .IntroSeconfLine{
+        font-size: 40px;
+        letter-spacing: 0.34px;
+        text-align: center; 
+          
+        color: #FCEBB6;
+        margin-bottom: 50px;
+        vertical-align: middle;
+    }
+    .BlockRight {
+        display: inline-block;
+        vertical-align: middle;
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: -80px;
+        margin-left: 10%;
+    } 
+    .BlockLeft {
+        display: inline-block;
+        vertical-align: middle;
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+        margin-left: 10%;
+        }  
+    .rounds {
+    display: flex;
+    width: 365px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px; }
+
+    .СirclesBig {
+        display: none;
+    }    
+    
+    .СirclesOne {
+        display: none;
+    }    
+    .СirclesTwo {
+        display: none;
+    }    
+    
+    .СirclesThree {
+        display: none;
+    }    
+    .СirclesFour {
+        display: none;
+    }    
+    .СirclesFive {
+        display: none;
+    }    
+    .girl_img {
+        display: none;
+       
+    }    
+   
+    
+    .cloud_on_roudns{
+        display: none;
+    }  
+    .Cloud_img {
+        display: none;
+    }   
+    
+    .hi_text{
+        display: none;
+        
+        }
+    .current_hi_text{
+        display: none;
+    }
+    .girl_img_small {
+        
+        width: 350px;
+        display: block;
+    
+        margin-left: 50%;
+        margin: 0 auto;
+    }
+
+    .F_buttons {
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        height: 55px;
+        
+        border-radius: 25px;
+        margin: 10px auto;
+        cursor: pointer;
+        align-items: center;
+        font-size: 27px;
+        font-weight: 200;
+        border: 5px solid #F8CAC1;
+    
+        font-weight: 200;
+        font-size: 50px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        color: #F8CAC1;
+        background-color: #292E40;}
+
+    .BlockLeft {
+        margin-top: -90px
+    }   
+    .BodyLine {
+        height: 100%;
+        margin: 0 auto; 
+        background-color: #292E40;
+        margin-top: 280px;
+    } 
+    .Th_buttons {
+        display: flex;
+        justify-content: center;
+        width: 110px;
+        height: 40px;
+        border-radius: 18px;
+        margin: 4px;
+        cursor: pointer;
+        align-items: center;
+        font-size: 27px;
+        font-weight: 200;
+        border: 4px solid #F8CAC1;
+        font-weight: 200;
+        font-size: 50px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        color: #F8CAC1;
+        background-color: #292E40;}  
+       
+    .button-4 .btn4 {
+        text-decoration: none;
+        position: relative;
+        font-size: 27px;
+        font-weight: 200;
+        display: flex;
+        justify-content: center;
+        border-radius: 25px;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 200;
+        font-size: 33px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        color: #F8CAC1;
+        margin: 7px;
+    }    
+
+    .button-1 .btn:hover {
+        color: #292E40;
+        border: 5px solid #F8CAC1;
+        width: 250px;
+        height: 55px;
+
+        font-weight: 200;
+        font-size: 43px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        background-color: #F8CAC1;
+        color: #FFFFFF;
+        margin-top: 3px;
+        margin-left: 0px;
+    }    
+
+    .show-but {
+        margin-top: -75px;
+    }
+
+
+}      
+
+@media screen and (max-width: 540px) {
+    .BlockRightAndRight {
+        display: inline-block;
+        height: 100%;
+        margin: 0 auto;
+        width: 80%;
+        justify-content: space-between;
+        margin-left: 10%;
+        vertical-align: middle;
+    }
+    .IntroFirstLine{
+        font-size: 30px;
+        letter-spacing: 0.34px;
+        text-align: center; 
+        
+        margin-top: 20px; 
+        color: #BED9DE;
+        vertical-align: middle;
+        
+      }
+      
+    .IntroSeconfLine{
+        font-size: 30px;
+        letter-spacing: 0.34px;
+        text-align: center; 
+          
+        color: #FCEBB6;
+        margin-bottom: 50px;
+        vertical-align: middle;
+    }
+    .BlockRight {
+        display: inline-block;
+        vertical-align: middle;
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: -90px;
+        margin-left: 10%;
+    } 
+    .BlockLeft {
+        display: inline-block;
+        vertical-align: middle;
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+        margin-left: 10%;
+        }  
+    .rounds {
+    display: flex;
+    width: 365px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px; }
+
+    .СirclesBig {
+        display: none;
+    }    
+    
+    .СirclesOne {
+        display: none;
+    }    
+    .СirclesTwo {
+        display: none;
+    }    
+    
+    .СirclesThree {
+        display: none;
+    }    
+    .СirclesFour {
+        display: none;
+    }    
+    .СirclesFive {
+        display: none;
+    }    
+    .girl_img {
+        display: none;
+       
+    }    
+   
+    
+    .cloud_on_roudns{
+        display: none;
+    }  
+    .Cloud_img {
+        display: none;
+    }   
+    
+    .hi_text{
+        display: none;
+        
+        }
+    .current_hi_text{
+        display: none;
+    }
+    .girl_img_small {
+        
+        width: 230px;
+        display: block;
+    
+        margin-left: 50%;
+        margin: 0 auto;
+
+    }
+
+    .F_buttons {
+        display: flex;
+        justify-content: center;
+        width: 180px;
+        height: 55px;
+        
+        border-radius: 25px;
+        margin: 10px auto;
+        cursor: pointer;
+        align-items: center;
+        
+        font-weight: 200;
+        border: 3px solid #F8CAC1;
+    
+        font-weight: 200;
+        font-size: 20px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        color: #F8CAC1;
+        background-color: #292E40;}
+
+    .BlockLeft {
+        margin-top: -90px
+    }   
+    .BodyLine {
+        height: 100%;
+        margin: 0 auto;
+        background-color: #292E40;
+        margin-top: 280px;
+    } 
+    .Th_buttons {
+        display: flex;
+        justify-content: center;
+        width: 73px;
+        height: 40px;
+        border-radius: 18px;
+        
+        cursor: pointer;
+        align-items: center;
+        
+        font-weight: 200;
+        border: 3px solid #F8CAC1;
+        font-weight: 200;
+        font-size: 30px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        color: #F8CAC1;
+        background-color: #292E40;}  
+       
+    .button-4 .btn4 {
+        position: relative;
+        font-size: 20px;
+        
+        display: flex;
+        justify-content: center;
+        border-radius: 25px;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 200;
+        font-size: 19px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        color: #F8CAC1;
+        margin: 7px;
+    }    
+
+    .show-but {
+        margin-top: -72px;
+    }
+
+    .btn4:hover {
+        color: #292E40;
+        border: 5px solid #F8CAC1;
+        width: 69px;
+        height: 38px;
+    
+        font-weight: 200;
+        font-size: 23px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        background-color: #F8CAC1;
+        color: #FFFFFF;
+        margin-top: 7px;
+        margin-left: 7px;
+      }
+    .First_buttons {
+        margin-top: -60px;
+    }
+    .button-1 .btn {
+	
+        font-size: 35px;
+        
+        
+    }
+    .panel {
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        width: 200px;
+        /*left: -360px;*/ /*для левой панели*/
+        right: -360px; /*для правой панели*/
+        background: #82BBC2;
+        transition: all 0.8s;
+        height: 100vh;
+        color: #FFF;
+        padding: 40px 20px;
+    
+        
+    }
+    .btn:hover {
+        color: #292E40;
+        border: 5px solid #F8CAC1;
+        width: 180px;
+        height: 55px;
+    
+        font-weight: 200;
+        font-size: 30px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        background-color: #F8CAC1;
+      }
+    .On_panel {
+        margin-top: 70px;
+    }  
+
+    .S_buttons {
+        display: flex;
+        justify-content: center;
+        width: 180px;
+        height: 65px;
+        border-radius: 25px;
+        margin: 25px auto;
+        cursor: pointer;
+        align-items: center;
+        /* font-size: 20px; */
+        font-weight: 200;
+        border: 3px solid #FFFFFF;
+        font-weight: 200;
+        /* font-size: 20px; */
+        letter-spacing: 0.34px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .On_panel {
+        margin-top: 70px;
+    }      
+    .but_on_panel {
+        margin-top: -130px;
+    }
+    .Punkt_icon {
+        width: 200px;
+    }
+    .button-2 .btn2{
+        font-size: 35px;
+    }
+
+    .Project_icons{
+        width: 170px;
+        margin: 0px auto;
+        margin-top: -18px;
+    }
+    .button-2 .btn2:hover{
+        width: 180px;
+        height: 65px;
+        border: 2px solid #FFFFFF;
+    }
+    .hourglass_icon {
+        width: 40px;
+    }
+    .Downl_icon {
+        width: 17px;
+    }
+    
+    .button-1 .btn:hover {
+        color: #292E40;
+        border: 6px solid #F8CAC1;
+        width: 173px;
+        height: 51px;
+
+        font-weight: 200;
+        font-size: 30px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        background-color: #F8CAC1;
+        color: #FFFFFF;
+        margin-top: 3px;
+        margin-left: 0px;
+    }  
+}   
+
+

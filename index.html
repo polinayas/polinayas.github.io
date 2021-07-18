@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SV web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    <script src="functions.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <script>
+		$(document).ready(function(){
+			/* by default hide all radio_content div elements except first element */
+			$(".show-but").hide();
+			
+           /* when any radio element is clicked, Get the attribute value of that clicked radio element and show the radio_content div element which matches the attribute value and hide the remaining tab content div elements */
+			$(".sv_btn").click(function(){
+			  
+			  $(".sv_btn").hide();
+			  $(".show-but").show();
+			})
+            
+		});
+	</script>
+</head>
+<body>
+    <div class="main">
+    <div class="MainBox">
+    
+              
+        <div class="HeadLine">
+            <div class="IntroFirstLine">I’m Polina Yasakova, a</div>
+            <div class="IntroSeconfLine">QA Engineer</div>
+            
+        </div>
+        
+        <div class="BodyLine">
+        
+            <div class="BlockRightAndRight">
+            
+                <div class="BlockRight">
+                    <div class="roudns">
+                        <div class="СirclesBig"></div>
+                        <div class="СirclesOne"></div>
+                        <div class="СirclesTwo"></div>
+                        <div class="СirclesThree"></div>
+                        <div class="СirclesFour"></div>
+                        <div class="СirclesFive"></div>
+                        
+                    </div>
+                    <div class="girl_on_roudns">
+                    <img src="icons/FirstPage_Girl.svg" alt="pic" class="girl_img">
+                    <img src="icons/FirstPage_Girl_smal.svg" alt="pic" class="girl_img_small">
+                    </div>
+                    <div class="cloud_on_roudns">
+                    <img src="icons/FirstPage_Cloud.svg" alt="pic" class="Cloud_img">
+                    <div class="current_hi_text">
+                        <div class="hi_text">Hi!</div>
+                    </div>
+                    </div>
+                </div>                
+                        
+                <div class="BlockLeft">
+                
+                
+                    <div class="First_buttons">
+                    
+
+                        
+                        <div href="https://youtube.com/YauhenKavalchuk" class="F_buttons clasZ">
+                        
+
+                                <label  class="button-1" >
+                                    <div class="btn"><a class="clasZ btn" href="Aboutme.html" >About me</a></div>
+                                </label>
+                        </div>
+                        
+
+                    <input type="checkbox" id="checkbox" />
+                            <div class="panel">
+                                <label class="panel-btn-close" for="checkbox">+</label>
+                                <div class="On_panel">
+                                    <div class="Punkt_on_panel">
+                                        <img src="icons/First_punkt.png" alt="pic" class="Punkt_icon">
+                                    </div>
+
+                                    <div class="S_buttons but_on_panel">
+                                        <label class="button-2" >
+                                            <div class="btn2"><a class="clasZ btn2" href="minigame.html" target="_blank">Mini Game</a></div>
+                                        </label>
+                                    </div>
+                                    <div class="icons_on_panel">
+                                        <img src="icons/Project_icons.png" alt="pic" class="Project_icons">
+                                    </div>
+                                    <div class="two_but_on_panel">
+                                        <div class="S_buttons">
+                                            <label class="button-2" >
+                                                <div class="btn3" ><input type="image" class="hourglass_icon" src="icons/hourglass.png" ></div>
+                                            </label>
+                                        </div>
+                                    </div>    
+                                    <div class="S_buttons">
+                                        <label class="button-2" >
+                                            <div class="btn3"><input type="image" class="hourglass_icon" src="icons/hourglass.png" ></div>
+                                        </label>
+                                    </div>
+                                </div>
+                        </div>
+                            
+                            </div>
+                            <div class="F_buttons">
+                                <label class="button-1" for="checkbox">
+                                    <div class="btn open">Projects</div>
+                                    <div class="btn close">Projects</div>
+                                </label>
+                            </div>
+                                        
+                            <div class="F_buttons">
+                                <label class="button-1" >
+                                    <div class="btn sv_btn">SV</div>
+                                </label>
+                                
+                            </div>
+
+                            <div class="F_buttons show-but">
+                                
+                                <div class="Th_buttons">
+                                    <label class="button-4 show-text " >
+                                        <div class="btn4 show-text"><a class="show-text btn_down" href="https://hh.ru/" download="">RUS</a><input type="image" class="Downl_icon" src="icons/Downl_icon.png" ></div>
+                                    </label>
+                                </div>
+                                <div class="Th_buttons">    
+                                    <label class="button-4 show-text" >
+                                        <div class="btn4" ><a class="show-text btn_down" href="https://hh.ru/" download="">ENG</a><input type="image" class="Downl_icon" src="icons/Downl_icon.png" ></div>
+                                    </label>
+                                </div>
+                            </div>
+                            
+
+
+                    </div>
+                    
+                </div>
+            </div>    
+        </div>    
+    </div>                   
+    </div>                
+</body>
+</html>
+

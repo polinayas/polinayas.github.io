@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 272.56 79">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.9;
+      }
+
+      .cls-2 {
+        font-size: 30px;
+        font-family: Calibri-Bold, Calibri;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <title>Project_icons</title>
+  <g id="Слой_21" data-name="Слой 21">
+    <rect class="cls-1" x="207" y="7" width="51" height="51" rx="12"/>
+  </g>
+  <g id="Слой_20" data-name="Слой 20">
+    <image width="256" height="256" transform="translate(0 8) scale(0.2)" xlink:href="../../../%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/photo/html-xxl.png"/>
+    <image width="256" height="256" transform="translate(69 7) scale(0.2)" xlink:href="../../../%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/photo/css-xxl.png"/>
+    <image width="256" height="256" transform="translate(138 7) scale(0.2)" xlink:href="../../../%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/photo/js-xxl.png"/>
+    <image width="502" height="518" transform="translate(196) scale(0.15)" xlink:href="../../../%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/photo/firebase.png"/>
+    <text class="cls-2" transform="translate(52.16 41.99)">+</text>
+    <text class="cls-2" transform="translate(121.72 42.19)">+</text>
+    <text class="cls-2" transform="translate(190.06 42.24)">+</text>
+  </g>
+</svg>

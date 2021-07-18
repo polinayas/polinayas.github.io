@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bear Mini Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-firestore.js"></script>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <script>
+		$(document).ready(function(){
+			/* by default hide all radio_content div elements except first element */
+			$(".container .radio_2").hide();
+			
+           /* when any radio element is clicked, Get the attribute value of that clicked radio element and show the radio_content div element which matches the attribute value and hide the remaining tab content div elements */
+			$(".ok_img").click(function(){
+			  
+			  $(".container .radio_1").hide();
+			  $(".container .radio_2").show();
+			})
+            
+		});
+	</script>
+    <link rel="stylesheet" href="css/StyleMiniGame.css">
+    <script src="functions.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <section class="promo">
+                <div class="container">
+                    <div class="logo">
+                        <div class="logo_text1">MINI GAME</div>
+                        
+                    </div>
+                    <div class="logo2">
+                        <img src="icons/punkt.svg" alt="pic" class="logo_img">
+                        <h1 class="onpic">Reaction Time Test</h1>
+                        
+                    </div>
+                    <div class="rounds">
+                        <div class="round1"></div>
+                        <div class="round2"></div>
+                    </div>
+                    
+                </div>
+                
+            </section>
+            
+            <section class="face">
+                <div class="container">
+                    
+                    <div class="dear_body ">
+                            
+                            <div class="ears">
+                                <div class="f_ear"></div> 
+                                <div class="s_ear"></div>
+                            </div>
+                            <div class="eyes">
+                                <div class="f_eye"></div> 
+                                <div class="s_eye"></div>
+                            </div>
+                                
+                            <img src="icons/nose.svg" alt="nose" class="nose_img">
+
+                            <div class="pink_skin"></div>
+                    </div>
+
+                    <div class="content radio_1">
+                        <div class="menu_one">
+                            <div class="textonbody_1">ENTER YOUR NAME:</div>
+                            <input id="name" name="name" class="add_name" name="name" type="text" size="40" maxlength="10" autocomplete="off"> 
+
+                            <div class="line_on_add"></div>
+                            <div class="textonbody_2">select difficulty:</div>
+                                <div class="buts">
+
+                                    <button id="easy"  class="but level"  value="easy"  onclick="StartGame('easy')">  <img src="icons/f_face.svg" alt="pic" class="face_img">
+                                        <h2 class="onface">EASY</h2></button>
+                                    <button id="medium" class="but level"  value="medium" onclick="StartGame('medium')"> <img src="icons/s_face.svg" alt="pic" class="face_img">
+                                        <h2 class="onface">MEDIUM</h2> </button>
+                                    <button id="hard"  class="but level"  value="hard"   onclick="StartGame('hard')"> <img src="icons/t_face.svg" alt="pic" class="face_img">
+                                        <h2 class="onface">HARD</h2> </button>
+                                        <!-- <div class="but_f">
+                                            <img src="icons/f_face.svg" alt="pic" class="face_img">
+                                            <h2 class="onface">EASY</h2>
+                                        </div>
+                                        
+                                        <div class="but_s">
+                                            <img src="icons/s_face.svg" alt="pic" class="face_img">
+                                            <h2 class="onface">MEDIUM</h2>
+                                        </div>
+                                        <div class="but_t">
+                                            <img src="icons/t_face.svg" alt="pic" class="face_img">
+                                            <h2 class="onface">HARD</h2>
+                                        </div>  -->
+
+                                </div>
+                            <input type="image" disabled class="ok_img" src="icons/okpic.svg" alt="ok" id="submit" value="OK" > </input>
+                            
+                            <h3 type="text" id="textok" class="oktext ok_img" >OK </h3> 
+                            
+                                    
+                        </div>
+                    </div>
+
+                    <div class="content radio_2">
+                        
+                        <div class="menu_two">
+                            <div class="instruction">get the highest score by quickly clicking on the correct words!</div>
+                            <div class="textonbody_1">Find it:</div>
+                            <div class="current_color"></div>
+                            <div class="textonbody_1">Choose correct word:</div>
+                            <div class="buts2">
+
+                                <button  class="but2 level"  onclick="game('Pink')"> PINK </button>
+
+                                <button  class="but2 level"  onclick="game('White')"> WHITE </button>
+                                    
+                                <button  class="but2 level"  onclick="game('Brown')"> BROWN </button>
+        
+
+                            </div>
+                            <div class="menu_three">
+                                <div class="textonbody_3">YOUR SCORE:</div> 
+                                <input  id="demo2" class="your_score" readonly > </input>
+                                
+
+
+
+
+
+                                <button  id="submit_btn" class="leader_board level" onclick="display()" > <h2 class="board_menu_text vertical-text">leader board</h2> <input type="image" class="arrow" src="icons/arrow.svg" onclick="display() id="submit_btn" > </input></button>
+                                
+                                
+                            </div>
+                            <div class="line"></div>
+                            <div class="board">
+                                <div class="board_menu">
+                                    <h2 class="board_menu_text">POS</h2>
+                                    <h2 class="board_menu_text">NAME</h2>
+                                    <h2 class="board_menu_text">SCORE</h2>
+
+                                </div>
+                                <div class="score_board"></div>
+                                <div class="lines2">
+                                     <div class="lines line2"></div>
+                                     <div class="lines line3"></div>
+                                </div>
+                                
+                                
+                            </div>
+                            <div class="findittext">
+                                <p id="demo1"> </p> 
+                            </div>
+
+                            <div class="findittext2" id="results">
+                                <table id="table-to-refresh"> 
+                                
+                                <tr>
+                                    <td id="leaderBoard"></td> 
+                                </tr>
+
+                                
+                                </table>
+
+                            </div>
+
+                            <div class="findittext3">
+                                 <p>1</p>
+                                 <p>2</p>
+                                 <p>3</p>
+                                 <p>4</p>
+                                 <p>5</p>
+                                 <p>6</p>
+                            </div>
+
+                            
+
+                        </div>  
+                    </div>
+
+                </div>    
+            
+               
+                
+                    
+            
+            </section>
+        </div>
+    </div> 
+    <script src="./firebase.js"></script>   
+</body>
+</html>
