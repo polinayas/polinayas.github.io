@@ -564,7 +564,7 @@ html {
     align-items: center;
     font-size: 27px;
     font-weight: 200;
-    border: 5px solid #F8CAC1;
+    border: 4px solid #F8CAC1;
 
     font-weight: 200;
     font-size: 50px;
@@ -888,7 +888,7 @@ html {
         display: none;
     }
     .About_me_buttons{
-        
+        border: 3px solid #F8CAC1;
         margin: 15px auto;
     }
     
@@ -999,6 +999,7 @@ html {
         width: 200px;
         height: 40px;
         margin: 10px auto;
+        border: 3px solid #F8CAC1;
     }
     .button-about .btn_about {
         
@@ -1139,6 +1140,7 @@ html {
         width: 200px;
         height: 40px;
         margin: 10px auto;
+        border: 2px solid #F8CAC1;
     }
     .button-about .btn_about {
         
@@ -1232,7 +1234,7 @@ html {
         margin: 0 auto;
         letter-spacing: 2px;
         text-align: center;
-        margin-top: -650px;
+        margin-top: -620px;
         font-style: normal;
     }    
     .text_aboutme2{
@@ -1282,6 +1284,7 @@ html {
         width: 200px;
         height: 40px;
         margin: 10px auto;
+        border: 2px solid #F8CAC1;
     }
     .button-about .btn_about {
         
