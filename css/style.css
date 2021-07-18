@@ -950,7 +950,7 @@ html {
         margin: 0 auto;
         letter-spacing: 2px;
         text-align: center;
-        margin-top: -950px;
+        margin-top: -95п0px;
         font-style: normal;
     }    
     .text_aboutme2{
@@ -1091,7 +1091,7 @@ html {
         margin: 0 auto;
         letter-spacing: 2px;
         text-align: center;
-        margin-top: -660px;
+        margin-top: -650px;
         font-style: normal;
     }    
     .text_aboutme2{
@@ -1206,7 +1206,150 @@ html {
         width: 90%;
         height: 700px;
         margin: 0 auto;
-        border-radius: 70px;
+        border-radius: 150px;
+        
+    }
+    .right_bottom_girl{
+        position: fixed;
+        bottom: -20px;
+        right: 2%;
+        width: 20%;}
+    
+    .menu_text2{
+        display: contents;  
+        
+        display: flex;
+        margin: 0 auto; 
+        width: 80%;
+        height: 700px;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 14px;
+        margin: 0 auto;
+        
+        letter-spacing: 2px;
+        text-align: center;
+        
+        color: #000000;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: -630px;
+        font-style: normal;
+    }    
+    .text_aboutme2{
+        font-size: 13px;
+        color: #000000;
+    }
+    .text_aboutme{
+        display: none;
+    }
+    .СirclesBig_2page{
+        display: none;
+    }  
+    .СirclesOne_2page{
+        display: none;
+    }
+    .СirclesTwo_2page{
+        display: none;
+    }
+    .СirclesTwo_2page{
+        display: none;
+    }
+    .СirclesThree_2page{
+        display: none;
+    }
+    .СirclesFour_2page{
+        display: none;
+    }
+    .СirclesFive_2page{
+        display: none;
+    }
+    .СirclesSix_2page{
+        display: none;
+    }
+    .СirclesSeven_2page{
+        display: none;
+    }
+    .СirclesEight_2page{
+        display: none;
+    }
+    .СirclesNine_2page{
+        display: none;
+    }
+    .СirclesTen_2page{
+        display: none;
+    }
+    .About_me_buttons{
+        width: 200px;
+        height: 40px;
+        margin: 10px auto;
+        border: 2px solid #F8CAC1;
+    }
+    .button-about .btn_about {
+        
+        position: relative;
+        font-size: 27px;
+        font-weight: 200;
+        display: flex;	
+        justify-content: center;
+        width: 200px;
+        height: 40px;
+        
+        border-radius: 25px;
+        align-items: center;
+        
+        cursor: pointer; 
+
+        font-weight: 200;
+        font-size: 50px;
+        letter-spacing: 0.34px;
+        text-align: center;
+        
+        color: #F8CAC1;
+        }
+
+    .btn_about:hover {
+            font-size: 50px;}
+    .IntroFirstLine {
+        
+        margin-top: 10px;}
+    
+}
+@media screen and (max-width: 320px) {
+    .btn_about2{
+        display: none;
+    }
+    .btn_about3{
+        display: none;
+    }
+
+    
+    .BlockRightAndRight_2{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .roudns{
+        width: 800px;
+        height: 790px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 57%;
+        left: 50%;
+    }
+    .СirclesBig2_2page {
+        
+        background-color: #BED9DE;
+        align-items: center;
+        width: 90%;
+        height: 700px;
+        margin: 0 auto;
+        border-radius: 100px;
         
     }
     .right_bottom_girl{
@@ -1317,7 +1460,6 @@ html {
         margin-top: 10px;}
     
 }
-
 @media screen and (max-width: 1010px) {
     
     .BlockRightAndRight {
