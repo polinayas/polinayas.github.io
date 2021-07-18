@@ -2,6 +2,7 @@
 html {
     font-family: "Calibri";
     font-weight: lighter;
+    
     cursor: default }
 
 .body{
@@ -10,6 +11,7 @@ html {
     width: 100%;
     top: 0;
     left: 0;
+    
     
 }
 
@@ -20,7 +22,7 @@ html {
     height: 100%;
     width: 100%;
     margin: 0 auto; 
-    
+    overflow:auto;
   
  }
  .MainBox {
@@ -31,10 +33,8 @@ html {
     margin: 0 auto; 
     background-color: #292E40;
     
-
   
-    
-   }
+}
 .IntroFirstLine{
   font-size: 69px;
   letter-spacing: 0.34px;
@@ -68,6 +68,7 @@ html {
     margin: 0 auto; 
     
     margin-top: 10px;
+    
 }
 
 .BlockRightAndRight {
@@ -920,7 +921,7 @@ html {
         width: 90%;
         height: 1000px;
         margin: 0 auto;
-        border-radius: 800px;
+        border-radius: 220px;
         
     }
     .right_bottom_girl{
@@ -949,7 +950,7 @@ html {
         margin: 0 auto;
         letter-spacing: 2px;
         text-align: center;
-        margin-top: -840px;
+        margin-top: -950px;
         font-style: normal;
     }    
     .text_aboutme2{
@@ -1061,7 +1062,7 @@ html {
         width: 90%;
         height: 700px;
         margin: 0 auto;
-        border-radius: 800px;
+        border-radius: 100px;
         
     }
     .right_bottom_girl{
@@ -1090,7 +1091,7 @@ html {
         margin: 0 auto;
         letter-spacing: 2px;
         text-align: center;
-        margin-top: -600px;
+        margin-top: -660px;
         font-style: normal;
     }    
     .text_aboutme2{
@@ -1205,7 +1206,7 @@ html {
         width: 90%;
         height: 700px;
         margin: 0 auto;
-        border-radius: 800px;
+        border-radius: 70px;
         
     }
     .right_bottom_girl{
@@ -1219,12 +1220,12 @@ html {
         
         display: flex;
         margin: 0 auto; 
-        width: 80%;
+        width: 85%;
         height: 700px;
         justify-content: space-between;
         margin-right: auto;
         margin-left: auto;
-        font-size: 16px;
+        font-size: 14px;
         margin: 0 auto;
         
         letter-spacing: 2px;
@@ -1234,11 +1235,11 @@ html {
         margin: 0 auto;
         letter-spacing: 2px;
         text-align: center;
-        margin-top: -620px;
+        margin-top: -670px;
         font-style: normal;
     }    
     .text_aboutme2{
-        font-size: 14px;
+        font-size: 12px;
         color: #000000;
     }
     .text_aboutme{
