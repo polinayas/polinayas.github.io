@@ -1,7 +1,8 @@
 
 var colors=['Pink', 'Yellow','Brown', 'Red', 'White', 'Brown', 'Blue'];
 
-$(document).ready(function () {
+$(document).ready(function()
+{
 
   $("h3").hide();
 
